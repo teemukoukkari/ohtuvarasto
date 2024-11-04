@@ -3,7 +3,7 @@ from varasto import Varasto
 
 class TestVarasto(unittest.TestCase):
     def test_konstruktori_luo_tyhjan_varaston(self):
-        varasto = Varasto(10)
+        varasto = Varasto(15)
         self.assertAlmostEqual(varasto.saldo, 0)
 
     def test_uudella_varastolla_oikea_tilavuus(self):
